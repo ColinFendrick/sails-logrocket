@@ -41,7 +41,7 @@ module.exports = {
   },
 
 
-  fn: async function (inputs) {
+  fn: async function (inputs, exits) {
     try {
       const newEmailAddress = inputs.email.toLowerCase();
       const token = await sails.helpers.strings.random('url-friendly');

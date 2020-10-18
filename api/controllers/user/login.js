@@ -38,7 +38,7 @@ module.exports = {
   },
 
 
-  fn: async function (inputs) {
+  fn: async function (inputs, exits) {
     try {
       const user = await User.findOne({
         email: inputs.email
