@@ -48,10 +48,7 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
-
+    adapter: 'sails-postgresql',
+    url: 'postgres://logrocket_sails_api:logrocketsailsapi@localhost:5432/logrocket_sails_api',
   },
-
-
 };
